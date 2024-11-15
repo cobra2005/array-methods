@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1a1c2c;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for array display and buttons */
+.container {
+  text-align: center;
+  color: white;
+}
+
+/* Array display */
+.array-display {
+  background-color: #f5c7c7;
+  color: #d14a4a;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Author label (DeCodeDev) */
+.author {
+  color: #c2c2c2;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+/* Buttons styling */
+.btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.btn {
+  padding: 10px 20px;
+  background-color: #2196f3;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #1976d2;
+}
