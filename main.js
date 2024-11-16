@@ -27,7 +27,7 @@ reverseBtn.onclick = () => {
 const pushBtn = document.querySelector('.btn-push');
 
 pushBtn.onclick = () => {
-  array.push(10);
+  array.push(Math.ceil(Math.random() * 100));
   currentArray = array;
   arrayDisplay.innerText = changeData(currentArray);
 }
@@ -43,7 +43,7 @@ popBtn.onclick = () => {
 const shiftBtn = document.querySelector('.btn-shift');
 
 shiftBtn.onclick = () => {
-  array.shift(10);
+  array.shift();
   currentArray = array;
   arrayDisplay.innerText = changeData(currentArray);
 }
@@ -51,7 +51,7 @@ shiftBtn.onclick = () => {
 const unshiftBtn = document.querySelector('.btn-unshift');
 
 unshiftBtn.onclick = () => {
-  array.unshift(0);
+  array.unshift(Math.ceil(Math.random() * 100));
   currentArray = array;
   arrayDisplay.innerText = changeData(currentArray);
 }
